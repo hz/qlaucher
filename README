@@ -1,0 +1,39 @@
+= NAME = 
+
+qlauncher@github.com.
+
+Forked from https://github.com/manno/gnome-shell-extension-quicklaunch/
+
+QLauncher - Launch custom made .desktop files from a directory for gnome-shell 3.32 and above
+
+Worked with gnome-shell 3.32 and above.
+
+= DESCRIPTION =
+
+This extension adds a popup menu to the top bar of gnome-shell.
+
+If you have any custom launchers, for example from a previous version of gnome-panel, or from your desktop, you can use the new popup to start these.
+
+To populate the popup menu, put .desktop files into /usr/local/lib/launcher/
+
+= INSTALL =
+
+1. Put this folder below ~/.local/share/gnome-shell/extensions/ and rename it to qlauncher@github.com
+
+2. create /usr/local/lib/launcher and put a few .desktop files in there
+
+  mkdir -p /usr/local/lib/launcher/
+
+3. reload gnome-shell (press alt-f2, enter r)
+
+4. use gnome-tweak-tool to enable the new shell extension
+
+= RELATED =
+
+* http://library.gnome.org/admin/system-admin-guide/stable/menustructure-desktopentry.html.en
+* http://standards.freedesktop.org/desktop-entry-spec/latest/
+
+= BUGS =
+
+* Popup menu overflows if too many application are added
+  https://github.com/manno/gnome-shell-extension-quicklaunch/issues/1
