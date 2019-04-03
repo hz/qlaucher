@@ -1,11 +1,10 @@
-# QLaucher
-QLauncher - Launch custom made .desktop files from a directory for gnome-shell 3.32 and above
-
 = NAME = 
 
 qlauncher@github.com.
 
 Forked from https://github.com/manno/gnome-shell-extension-quicklaunch/
+
+QLauncher - Launch custom made .desktop files from a directory for gnome-shell 3.32 and above
 
 Worked with gnome-shell 3.32 and above.
 
