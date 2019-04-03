@@ -1,0 +1,5 @@
+{"shell-version": ["3.x"],
+ "uuid": "qlauncher@github.com",
+ "name": "QLauncher", 
+ "description": "QLauncher - Launch custom made .desktop files from a directory",
+  "url": "https://github.com/hz/qlauncher"}
